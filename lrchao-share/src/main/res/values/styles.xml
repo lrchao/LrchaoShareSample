@@ -1,0 +1,13 @@
+<resources>
+
+    <style name="CustomDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="DialogMenuAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:windowEnterAnimation">@anim/anim_in_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/anim_out_from_top</item>
+    </style>
+
+</resources>

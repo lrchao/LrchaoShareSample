@@ -11,22 +11,11 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"/>
-
     <Button
         android:id="@+id/btn_show_share_dialog"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Go First Activity"/>
-
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:scaleType="centerCrop"
-        android:src="@drawable/decoration_broadcast_step6"/>
+        android:text="Show Share Dialog"/>
 
 
 </LinearLayout>

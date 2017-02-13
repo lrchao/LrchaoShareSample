@@ -1,3 +1,22 @@
 <resources>
-    <string name="app_name">Share</string>
+    <string name="app_name">ShareSDK</string>
+
+    <!-- 分享面板的文字 -->
+    <string name="platform_sms">短信</string>
+    <string name="platform_qq">QQ</string>
+    <string name="platform_qzone">QQ空间</string>
+    <string name="platform_wechat_friend">微信好友</string>
+    <string name="platform_wechat_moment">微信朋友圈</string>
+    <string name="platform_wechat_favorite">微信收藏</string>
+    <string name="platform_sina_micro_blog">新浪微博</string>
+    <string name="platform_tentcent_micro_blog">腾讯微博</string>
+    <string name="cancel_share">取消分享</string>
+
+    <!-- Toast -->
+    <string name="toast_cancel_share">分享已取消！～</string>
+    <string name="toast_share_success">已分享成功～</string>
+    <string name="toast_share_failed">分享失败～</string>
+
+    <!--Log -->
+    <string name="log_share_failed">分享失败:msg:%1$s code:%2$d</string>
 </resources>
